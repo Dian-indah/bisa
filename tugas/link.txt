@@ -1,0 +1,4 @@
+https://www.petanikode.com/java-prosedur-dan-fungsi/
+https://www.petanikode.com/java-oop-setter-getter/
+petanikode.com/java-oop-this-super/
+https://www.petanikode.com/java-oop-inheritance/
