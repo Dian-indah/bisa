@@ -34,7 +34,7 @@ public class Main {
         int i;
         // Cek Login
         for (i = 0; i < dataPetugas.size(); i++) {
-            if(id_petugas.equals(dataPetugas.get(i).getIdPetugas()) && password.equals(dataPetugas.get(i).getPassword())){
+            if(id_petugas.equals(dataPetugas.get(i).getNo_id()) && password.equals(dataPetugas.get(i).getPassword())){
                 isLogin = true;
                 break;
             }else{
@@ -91,7 +91,7 @@ public class Main {
         System.out.print("Input Pengarang : ");
         String pengarang = input.next();
         
-        System.out.print("Input Tahun Terbit = ");
+        System.out.print("Input Tahun Terbit : ");
         String tahun_terbit = input.next();
         
         // Add Object To Class Buku     

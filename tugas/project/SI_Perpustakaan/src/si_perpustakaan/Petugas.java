@@ -1,30 +1,28 @@
 package si_perpustakaan;
 
-public class Petugas {
+public class Petugas extends WargaPerpus {
    // Attribut    
-    String id_petugas, nama, alamat, password;
+    private String password;
     
     // Constructor
-    public Petugas(String id_petugas, String nama, String alamat, String password){
-        this.id_petugas = id_petugas;
-        this.nama = nama;
-        this.alamat = alamat;
+    public Petugas(String no_id, String nama, String alamat, String password){
+        super(no_id, nama, alamat);
         this.password = password;
     }
     
-    // Accessor
-    String getIdPetugas(){
-        return this.id_petugas;
+    // Accessor    
+    @Override 
+    String getNo_id(){
+        return no_id;
     }
-    
+    @Override 
     String getNama(){
-        return this.nama;
+        return nama;
     }
-    
+    @Override 
     String getAlamat(){
-        return this.alamat;
+        return alamat;
     }
-    
     String getPassword(){
         return this.password;
     }
