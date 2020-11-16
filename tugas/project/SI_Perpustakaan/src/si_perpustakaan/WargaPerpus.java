@@ -19,3 +19,5 @@ public class WargaPerpus {
         return this.alamat;
     }
 }
+
+
